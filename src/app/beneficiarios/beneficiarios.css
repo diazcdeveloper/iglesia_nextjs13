@@ -1,0 +1,21 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: fit-content;
+    padding: 10px;
+
+    list-style: none;
+
+    border: 1px black solid;
+}
+
+.card img{
+    width: 100px;
+}
